@@ -1,6 +1,4 @@
-# 🍕 Pizza-Sales-Analysis_Sowjanya
-
-📊 **Pizza Sales Analysis using SQL (MySQL)**  
+# 🍕 📊 Pizza Sales Analysis using SQL (MySQL)
 This repository contains structured SQL queries and insights derived from a fictional pizza sales database. The project focuses on deriving business intelligence using descriptive statistics and SQL techniques.
 
 ---
