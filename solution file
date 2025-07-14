@@ -1,0 +1,98 @@
+# 📝 Solution Explanation – Pizza Sales Analysis using MySQL
+
+In this project, I analyzed a pizza sales dataset to derive meaningful business insights, such as customer preferences, revenue trends, and product performance. The project demonstrates how SQL can be effectively used for data exploration and reporting in a business context.
+
+---
+
+## 1. 🗂️ Data Understanding & Preparation
+
+• Explored four main tables in the database:
+  - `orders` – Contains order timestamps and IDs  
+  - `order_details` – Contains pizza IDs and quantities per order  
+  - `pizzas` – Contains pizza prices and sizes  
+  - `pizza_types` – Contains names and categories of pizzas  
+
+• Identified relationships between the tables using foreign keys.
+
+• Ensured data consistency for proper joins and aggregations.
+
+---
+
+## 2. 🔍 Descriptive SQL Analysis
+
+I answered key business questions using SQL queries such as:
+
+• **Order Metrics**  
+  → Total number of unique orders placed  
+  → Order frequency by hour of day  
+
+• **Revenue Insights**  
+  → Total revenue generated  
+  → Cumulative revenue trend over time  
+  → Revenue contribution by category and by top products
+
+• **Customer Preference Analysis**  
+  → Most ordered pizza sizes  
+  → Most popular pizza types by quantity  
+  → Top 3 revenue-generating pizzas per category
+
+• **Inventory Understanding**  
+  → Quantity sold by pizza category  
+  → Average pizzas ordered per day
+
+---
+
+## 3. 📊 Visualizations (Optional for BI Tools)
+
+While MySQL handles the backend analysis, these queries are well-suited for dashboard tools like Tableau or Power BI to create:
+
+• Revenue trend line charts  
+• Pie charts for category-wise revenue distribution  
+• Bar charts for top 5 pizzas by sales  
+• Heatmaps for hourly order distribution
+
+---
+
+## 4. 💡 Insights & Conclusions
+
+Key takeaways from the analysis:
+
+• **18-inch pizzas** are the most preferred size among customers.  
+• **Classic and Supreme** pizzas contribute the highest to overall sales and revenue.  
+• Orders peak during **evening hours** (6 PM to 9 PM).  
+• **Revenue is dominated by a few top-performing pizza types**, making them strategic products to promote.  
+• **Consistent growth** in daily revenue indicates stable demand across the dataset timeframe.
+
+---
+
+## ✅ Final Result
+
+The SQL script provides a comprehensive, query-driven walkthrough of how to analyze a retail dataset using SQL alone. It is ideal for:
+
+• Business analysts exploring retail/F&B data  
+• Data science and SQL learners practicing real-world problem solving  
+• Dashboard developers preparing backend queries for BI tools  
+• Interview preparation for SQL and database analysis roles
+
+---
+
+## 🧰 Tools & Skills Demonstrated
+
+- MySQL  
+- SQL JOINs, Aggregations, Subqueries, Window Functions  
+- Analytical thinking applied to sales data  
+- Data storytelling for business decision-making
+
+---
+
+## 🙌 Acknowledgements
+
+Thanks to the data mentors and open-source community for providing the foundational idea and support in structuring this SQL analysis project.
+
+---
+
+## 📁 License
+
+This solution is provided for educational purposes only and is not intended for commercial use.
+
+---
